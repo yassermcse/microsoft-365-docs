@@ -143,6 +143,8 @@ Run the following command in the Exchange Management Shell, on-premises:
 
 ```powershell
 Set-AuthServer -Identity EvoSTS -IsDefaultAuthorizationEndpoint $true
+
+Example: Set-AuthServer -Identity "EvoSTS - c9845-g45534-6y63y-5r4f28-4t42665" -IsDefaultAuthorizationEndpoint $true
 Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 ```
 
